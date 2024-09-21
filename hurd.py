@@ -13,7 +13,7 @@ while Item <= 20:
     Item +=1
 firstField = random.choice(firstFieldList)
 
-print(firstField)
+print('Число первой вставки - ', firstField)
 
 for i in range(firstField): #firstField)
     for j in range(firstField):
@@ -23,4 +23,4 @@ for i in range(firstField): #firstField)
                 passFieldList.append(i +1)
                 passFieldList.append(j +1)
         else: continue
-print(passFieldList)
+print('Пароль - ', passFieldList)
